@@ -1,0 +1,1 @@
+# sales_and_inventory_management_system_with_barcodeScanner
