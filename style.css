@@ -1,0 +1,22 @@
+
+
+
+
+
+
+.sidebar-hide .sidebar.sidebar-hide-to-small {
+    position: absolute;
+    width: 60px;
+    left: 0;
+    top: 0px;
+    position: -webkit-sticky;
+  position: sticky;
+}
+
+.sidebar-hide .sidebar.sidebar-hide-to-small, .sidebar-hide .sidebar.sidebar-hide-to-small .nano, .sidebar-hide .sidebar.sidebar-hide-to-small .nano-content {
+    
+    overflow: visible;
+    line-height: 5;
+    height:667px;
+    /*background: #fff;*/
+}
