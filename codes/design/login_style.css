@@ -1,0 +1,75 @@
+body{
+  background-image: url('../assets/images/logo1.png');
+}
+
+.div-back{
+
+margin: 0px auto;
+background-color: white;
+margin-top: 8%;
+border-width:1px;  
+border-style: solid;
+border-color:#e3e5e8;
+ border-radius: 15px 15px 15px 15px;
+ width: 30%;
+
+}
+.logo{
+  margin-top: 2%;
+
+}
+.div-back #input1{
+width: 91%;    
+margin: 0px auto;
+height: 47px;
+
+}
+.div-back #input2{
+width: 91%;    
+margin: 0px auto;
+height: 47px;
+margin-top: 10px;
+}
+ .store-name{
+   font-family: Tahoma, sans-serif;
+  font-size: 22px;
+ color: #575757;
+ font-weight: bold;
+margin: 0px auto;
+margin-top: 10px;
+
+}
+
+
+.login{
+margin: 0px auto;
+width: 91%;    
+height: 44px;
+margin-top:5%;
+border-style: none;
+background-color:#343957;
+font-family: arial;
+font-weight: bold;
+color: white;
+font-size: 19px;
+border-radius: 5px 5px 5px 5px;
+
+}
+.error_field{
+background-color: #ffebe8;
+padding: 8px 8px 8px 8px;
+margin: 0px auto;
+margin-top: 3%;
+font-size: 14px;
+width: 80%;   
+color: black;
+font-family: arial;
+border-style: solid;
+border-color:#e1512a;
+border-width:1px;
+}
+::placeholder{
+     letter-spacing: 1px;
+     font-size: 15px;
+}
+

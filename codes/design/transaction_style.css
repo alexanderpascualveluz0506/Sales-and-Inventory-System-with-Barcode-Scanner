@@ -1,0 +1,52 @@
+.nav-link{
+	font-size: 20px;
+	color:black;
+	text-align: center;
+	color: white;
+}
+#two{
+	background-color: #17a2b8;
+		border-style: ridge;
+		border-width: 1px;
+}
+#one{
+	background-color: #17a2b8;
+		
+		border-style: ridge;
+		border-width: 1px;
+
+}
+#three{
+	background-color:#17a2b8;
+	
+		border-style: ridge;
+		border-width: 1px;
+
+
+}
+#con{
+	border-style: solid;
+	width: 90%;
+	margin-left: 70px;
+	background-color: white;
+}
+#search-bar{
+	border-color: darkgray;
+}
+
+.nav-link:hover{
+	color: white
+
+}
+.nav-item:hover{
+	color: white;
+}
+
+.table.table-striped.table-bordered th{
+background-color: #343957;
+color: white;
+}
+
+.table.table-striped.table-bordered tr td{
+background-color: #f2f2f2;
+}

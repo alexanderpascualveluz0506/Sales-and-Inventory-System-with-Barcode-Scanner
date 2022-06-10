@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+               
+                width: 100% ;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                background-color: #f8f9fe!important;
+                 overflow-x:hidden;
+            }
+.stat-widget-one{
+    margin-left: 10px;
+}
+#one{
+  width: 20%;
+}
+.hamburger.sidebar-toggle{
+    margin-top: -30%;
+}
+.ti-email{
+    position: absolute;
+    margin-top: -34px;
+}
+.ti-bell{
+    position: absolute;
+    margin-top: -10px;
+}
+.user-avatar{
+    display: block;
+margin-top: 17px;
+}
+#main-content{
+    width: 97.1%;
+
+    margin-left: 1%;
+}
+
+
+
+
+.ti-pencil{
+margin-left: 2%;
+}
+
+
+.hamburger.sidebar-toggle{
+    margin-top: -30%;
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    display: inline-block;
+    width: 100%;
+  }
+}
+@media (max-width: 360px) {
+  .stat-widget-five .stat-heading {
+    padding-left: 0;
+  }
+  .stat-widget-two .stat-digit {
+    font-size: 16px;
+  }
+  .stat-widget-two .stat-text {
+    font-size: 14px;
+  }
+  .stat-widget-three .stat-digit {
+    font-size: 20px;
+  }
+  .stat-widget-four .stat-heading {
+    font-size: 18px;
+  }
+  .stat-widget-three .stat-icon {
+    padding: 20px;
+  }
+}
+.fas.fa-id-card{
+font-size:22px;
+}
+.fas.fa-chart-line{
+  font-size:24px;
+}
+.bi.bi-cart-x-fill{
+   font-size:24px;
+}
+.fas.fa-sign-out-alt{
+  font-size:22px;
+}
+.sidebar-hide .sidebar.sidebar-hide-to-small {
+    width: 60px;
+    left: 0;
+    top: 0px;
+    position: -webkit-sticky;
+  position: sticky;
+}
+
+.sidebar-hide .sidebar.sidebar-hide-to-small, .sidebar-hide .sidebar.sidebar-hide-to-small .nano, .sidebar-hide .sidebar.sidebar-hide-to-small .nano-content {
+    
+    overflow: visible;
+    line-height: 0;
+    height:667px;
+    /*background: #fff;*/
+}
+.sidebar-hide .sidebar.sidebar-hide-to-small .nano-content{
+    margin-top: 30px;
+}
+.sidebar-hide .sidebar.sidebar-hide-to-small .nano-content>ul>li>a {
+
+    padding: 0;
+    text-align: center;
+    padding: 12px 0;
+    line-height: 0;
+    margin-top: 0px;
+
+
+}
+.sidebar-hide .sidebar.sidebar-hide-to-small .nano-content>ul>li>a>i {
+font-size: 16px;
+}
+#sales-header{
+    background-color: red;
+    margin-left: -2%;
+    width: 104%;
+    margin-top: -2%;
+}
+
+#sales-table tr td{
+background-color: white;
+}
+.label-header{
+    font-size: 18px;
+}
+
+.stat-text{
+margin-left: 81px;
+margin-top: -57px;
+font-size: 14px;
+color:  #8a8a8a;
+}
+.stat-digit{
+    font-size: 18px;
+    margin-left: 80px;
+}
+
+.stat-icon.dib{
+ 
+    width: 70px;
+  height: 90px;
+background-color:#343957;
+  color: #32cd32;
+  margin-left: -30px;
+margin-top: -20px;
+
+  
+}
+#icons{
+    position: absolute;
+font-size:34px;
+margin-left: 21px;
+margin-top: 23px;
+color:white;
+
+
+}
+.card{
+   height: 93px; 
+}
+#inventory-table{
+     border-collapse: separate;
+        border-spacing: 0px 6px;
+}
+#inventory-table tr td{
+background-color: white;
+font-size: 14.5px;
+border-style:solid; border-width: 1px;
+
+
+}
+#inventory-table th{
+    background-color: white;
+    font-weight: normal;
+    font-size: 17px;
+    border-style:solid; border-width: 1px;
+}
+#inventory-table #header-td{
+    background-color:#006994;
+}
+#inventory-table #header-td i{
+   float: center;
+    font-size: 20px;
+    color: white;
+
+
+}
+#item-details tr td{
+background-color: white;
+}
+
+#itemdetailsTH{
+    background-color: white;
+    font-weight: normal;
+    font-size: 17px;
+    border-style:solid; 
+    border-width: 1px;
+}
+#item-details{
+     border-collapse: separate;
+        border-spacing: 0px 6px;
+}
+#inv-id{
+    padding-left: 20px;
+    padding-top: 4px;
+}
+#inv-val{
+       padding-top: 4px;
+
+ font-size: 17px;
+
+
+}
+#dropdownMenuButton{
+    background-color:white;
+    color: black;
+    border-color: #e9ecef;
+    width: 120px;
+    float: right;
+}
+.dropdown-menu{
+     width: 120px; 
+}

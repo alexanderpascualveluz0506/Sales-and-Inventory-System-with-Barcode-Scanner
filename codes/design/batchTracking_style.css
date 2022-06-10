@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+               
+                width: 100% ;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                background-color: #f8f9fe!important;
+                 overflow-x:hidden;
+            }
+.stat-widget-one{
+    margin-left: 10px;
+}
+#one{
+  width: 20%;
+}
+.hamburger.sidebar-toggle{
+    margin-top: -30%;
+}
+.ti-email{
+    position: absolute;
+    margin-top: -34px;
+}
+.ti-bell{
+    position: absolute;
+    margin-top: -10px;
+}
+.user-avatar{
+    display: block;
+margin-top: 17px;
+}
+#main-content{
+    width: 97.1%;
+
+    margin-left: 1%;
+}
+#div-for-entries-show{
+    margin-left: 3px;
+    margin-top: 2.6%;
+    width: 50%
+}
+.label-for-show{
+    margin-top: 7px;
+}
+.label-for-entries{
+    display: block;
+    margin-left: 90px;
+    margin-top: -30px;
+}
+.form-control{
+    border-style: solid;
+    border-color: #999999;
+}
+.search-label{
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.search-input{
+    height: 35px;
+    border-style: solid;
+    border-color: #999999;
+    border-width: 1px;
+}
+.btn.btn-primary{
+    width: 158px;
+    height: 37px;
+    border-radius: 0px 0px 0px 0px;
+    background-color: white;
+    border-style: ridge;
+    color: black;
+    border-color:#999999; 
+}
+.btn.btn-primary i{
+    font-size: 12px;
+
+}
+.btn.btn-primary span {
+    font-family: arial;
+    font-size: 14px;
+    width: 10px;
+
+}
+.btn.btn-primary.dropdown-toggle{
+    height: 37px;
+    font-size: 12px;
+    border-radius: 0px 0px 0px 0px;
+    background-color: white;
+    border-style: ridge;
+    color: black;
+    border-color: #999999;
+    width: 50px;
+
+}
+.btn.btn-primary.dropdown-toggle:hover{
+ background-color:  #0069d9;
+color: white;
+    }
+.btn.btn-primary.dropdown-toggle i{
+margin-left: 4px;
+}
+.btn.btn-primary.dropdown-toggle::after {
+            content: none;
+        }
+#button-group-rght{
+    position: relative;
+    margin-right: 5%;
+    margin-top: -4%;
+    float: right;
+
+}
+#div-for-options{
+    padding-left: 16%;
+}
+#div-for-settings{
+ padding-left: 32%;
+}
+#bootstrap-data-table-export th{
+
+    background-color:#343957;
+    color: white;
+    border-style: none;
+    font-weight: normal;
+    border-color: none;
+    height: 10px;
+
+}
+
+#bootstrap-data-table-export td{
+    background-color: white;
+          border-right: none;
+        border-left: none;
+        border-top: none;
+    
+}
+#bootstrap-data-table-panel{
+ height:500px;   
+  overflow-y:auto;
+
+}
+
+#dropdownForMoreOptions{
+    margin-left: 45.2%;
+}
+#dropdownCustomizeForTable{
+    margin-left:1%; 
+}
+
+input[type="text"]:focus {
+
+     outline: 1px;
+     border-color: lightgray;
+}
+
+.ti-pencil{
+margin-left: 2%;
+}
+
+#div-for-multiple-delete-edit{
+width: 100%;
+
+}
+#div-for-multiple-delete-edit i{
+font-size: 16px;
+}
+#div-for-multiple-delete-edit button{
+width: 120px;
+margin-left:0%;
+}
+#button2-hide-div{
+padding-left: 10px;
+
+}
+#button3-hide-div{
+padding-left: 10px;
+}
+@media (max-width: 768px) {
+  .card {
+    display: inline-block;
+    width: 100%;
+  }
+}
+@media (max-width: 360px) {
+  .stat-widget-five .stat-heading {
+    padding-left: 0;
+  }
+  .stat-widget-two .stat-digit {
+    font-size: 16px;
+  }
+  .stat-widget-two .stat-text {
+    font-size: 14px;
+  }
+  .stat-widget-three .stat-digit {
+    font-size: 20px;
+  }
+  .stat-widget-four .stat-heading {
+    font-size: 18px;
+  }
+  .stat-widget-three .stat-icon {
+    padding: 26px;
+  }
+}
+.sidebar-hide .sidebar.sidebar-hide-to-small {
+    width: 60px;
+    left: 0;
+    top: 0px;
+    position: -webkit-sticky;
+  position: sticky;
+}
+
+.sidebar-hide .sidebar.sidebar-hide-to-small, .sidebar-hide .sidebar.sidebar-hide-to-small .nano, .sidebar-hide .sidebar.sidebar-hide-to-small .nano-content {
+    
+    overflow: visible;
+    line-height: 1;
+    height:667px;
+    /*background: #fff;*/
+}
+
+.sidebar-hide .sidebar.sidebar-hide-to-small .nano-content>ul>li>a {
+    
+    padding: 0;
+    text-align: center;
+    padding: 12px 0;
+    line-height: 1;
+    margin-top: 12px;
+
+
+}
